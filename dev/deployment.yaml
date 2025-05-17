@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx
+        image: 390403862591.dkr.ecr.us-east-1.amazonaws.com/jenkins-ci:latest
         ports:
         - containerPort: 80
